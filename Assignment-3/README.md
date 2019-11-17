@@ -19,5 +19,4 @@ Layer 4: A 3 layer dense network at the output with softmax activation, each cla
 ### Recall = 0.55 
 
 ## Class-Wise Results
-<br />
-![Alt text](https://raw.githubusercontent.com/delta-ng/NLP-2019/master/Assignment-3/Results.png)
+![Results](https://raw.githubusercontent.com/delta-ng/NLP-2019/master/Assignment-3/Results.png)
