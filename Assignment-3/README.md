@@ -7,8 +7,8 @@ We removed all the hashtags, links and mentions using regex library in python.
 ## Embedding:
 Embedding was taken for each word from FLARE library and then concatenated to form a embedding vector. Since the size of the sentence are not the same. We used padding.
 ## Model:
-Layer 1: An embedding layer of a vector size of 768. <br />
-Layer 2: 128 cell bi-directional LSTM layers, where the embedding data is fed to the network. I added a dropout of 0.2 this is used to prevent overfitting. <br />
+Layer 1: An embedding layer of a vector size of 3072. <br />
+Layer 2: 128 cell bi-directional LSTM layers, where the embedding data is fed to the network. A dropout of 0.2 is added to prevent overfitting. <br />
 Layer 3: A 20 layer GRU layer which takes in the input from the LSTM layer. A Dropout of 0.2 is added here. <br />
 Layer 4: A 3 layer dense network at the output with softmax activation, each class is used to represent a sentiment category. 
 ## Overall Accuracy:
