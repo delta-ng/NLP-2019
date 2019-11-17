@@ -26,4 +26,4 @@ gru (GRU)                   <br />
 dropout_1 (Dropout)        <br />        
 dense (Dense)               <br />
 
-![Alt text](../master/Assignment-3/Results.png)
+![Alt text](https://raw.githubusercontent.com/delta-ng/NLP-2019/master/Assignment-3/Results.png)
