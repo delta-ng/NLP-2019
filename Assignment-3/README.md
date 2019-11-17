@@ -5,7 +5,7 @@ Roll number : 17110109 <br />
 ## Pre-Processing:
 We removed all the hashtags, links and mentions using regex library in python.
 ## Embedding:
-Embedding was taken for each word from FLARE library and then concatenated to form a embedding vector. Since the size of the sentence are not the same. We used padding. We used sentence embedding first and the accuracy was around 49% which is less than the word embedding accuracy. The size of the mebedding vector is 3072. Which then was passed into the model.
+Embedding was taken for each word from FLARE library and then concatenated to form a embedding vector. Since the size of the sentence are not the same. We used padding. We used sentence embedding first and the accuracy was around 49% which is less than the word embedding accuracy. The size of the embedding vector is 3072. Which then was passed into the model.
 ## Model:
 Layer 1: An embedding layer of a vector size of 3072. <br />
 Layer 2: 128 cell bi-directional LSTM layers, where the embedding data is fed to the network. A dropout of 0.2 is added to prevent overfitting. <br />
