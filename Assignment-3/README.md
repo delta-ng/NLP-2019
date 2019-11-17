@@ -26,4 +26,4 @@ gru (GRU)                   <br />
 dropout_1 (Dropout)        <br />        
 dense (Dense)               <br />
 
-![Alt text](../master/Assignment-3/results.png)
+![Alt text](../master/Assignment-3/Results.png)
