@@ -13,17 +13,10 @@ Layer 3: A 20 layer GRU layer which takes in the input from the LSTM layer. A Dr
 Layer 4: A 3 layer dense network at the output with softmax activation, each class is used to represent a sentiment category. 
 ## Overall Accuracy:
 
-accuracy = 0.53 <br />
-f1_score = 0.53 <br />
-precision = 0.54 <br />
-recall = 0.55 <br />
-            
-Model: "sequential" <br />
-Layer (type)            <br />  
-bidirectional (Bidirectional) <br />
-dropout (Dropout)           <br />       
-gru (GRU)                   <br />    
-dropout_1 (Dropout)        <br />        
-dense (Dense)               <br />
+### Accuracy = 0.53 
+### F1_score = 0.53 
+### Precision = 0.54 
+### Recall = 0.55 
+
 
 ![Alt text](https://raw.githubusercontent.com/delta-ng/NLP-2019/master/Assignment-3/Results.png)
