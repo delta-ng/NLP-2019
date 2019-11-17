@@ -4,10 +4,10 @@ The folder contains the following:
 * Assignment 1 - Using the "Tweets Dataset" to calculate Token, Types and TTR. Also plotted the Zipf's Law and Heap's Law for the given corpus.
 * Assignment 2- Language Modeling ( N-gram and LSTM Approach )
 * Assignment 3- Sentiment Analysis on Bi-Lingual Tweets
-
-Assignment-3 
-Submitted by : Prakash R
-Roll number : 17110109 
+<br />
+Assignment-3  <br />
+Submitted by : Prakash R <br />
+Roll number : 17110109 <br />
 
 ## Pre-Processing:
 We removed all the hashtags, links and mentions using regex library in python.
@@ -19,19 +19,16 @@ accuracy, f1_score, precision, recall
 
 Model: "sequential"
 _________________________________________________________________
-Layer (type)                 Output Shape              Param #   
+Layer (type)            <br />  
 =================================================================
-bidirectional (Bidirectional multiple                  3277824   
+bidirectional (Bidirectional) <br />
 _________________________________________________________________
-dropout (Dropout)            multiple                  0         
+dropout (Dropout)           <br />       
 _________________________________________________________________
-gru (GRU)                    multiple                  16680     
+gru (GRU)                   <br />    
 _________________________________________________________________
-dropout_1 (Dropout)          multiple                  0         
+dropout_1 (Dropout)        <br />        
 _________________________________________________________________
-dense (Dense)                multiple                  63        
+dense (Dense)               <br />      
 =================================================================
-Total params: 3,294,567
-Trainable params: 3,294,567
-Non-trainable params: 0
 ________________________________________
