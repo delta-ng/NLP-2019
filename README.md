@@ -14,21 +14,20 @@ We removed all the hashtags, links and mentions using regex library in python.
 ## Embedding:
 Embedding was taken for each word from FLARE library and then concatenated to form a embedding vector. Since the size of the sentence are not the same. We used padding.
 ## Model:
-0.52969503, 0.51582956, 0.54311556, 0.49189213
-accuracy, f1_score, precision, recall
+Layer 1: Bidirectional Layer with 128 elements.
+Layer 2: 
+Layer 3:
+## Overall Accuracy:
 
-Model: "sequential"
-_________________________________________________________________
+accuracy = 0.53 <br />
+f1_score = 0.53 <br />
+precision = 0.54 <br />
+recall = 0.55 <br />
+            
+Model: "sequential" <br />
 Layer (type)            <br />  
-=================================================================
 bidirectional (Bidirectional) <br />
-_________________________________________________________________
 dropout (Dropout)           <br />       
-_________________________________________________________________
 gru (GRU)                   <br />    
-_________________________________________________________________
 dropout_1 (Dropout)        <br />        
-_________________________________________________________________
-dense (Dense)               <br />      
-=================================================================
-________________________________________
+dense (Dense)               <br />
